@@ -1,26 +1,10 @@
 <templateSet group="Ember.js import routing">
-  <template name="imautoLocation" value="import AutoLocation from '@ember/routing/auto-location';$END$" description="Ember.AutoLocation" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="imlocation" value="import Location from '@ember/routing/location';$END$" description="Ember.Location" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="imroute" value="import Route from '@ember/routing/route';$END$" description="Ember.Route" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="imlinkComponent" value="import LinkComponent from '@ember/routing/link-component';$END$" description="Ember.LinkComponent" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="imroutingHash" value="import HashLocation from '@ember/routing/hash-location';$END$" description="Ember.HashLocation" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="imroutingHistory" value="import HistoryLocation from '@ember/routing/history-location';$END$" description="Ember.HistoryLocation" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="imnoneLocation" value="import NoneLocation from '@ember/routing/none-location';$END$" description="Ember.NoneLocation" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="imrouter" value="import Router from '@ember/routing/router';$END$" description="Ember.Router" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
+  <template name="imautoLocation" value="import AutoLocation from '@ember/routing/auto-location';$END$" description="Ember.AutoLocation" toReformat="true" toShortenFQNames="false" />
+  <template name="imlocation" value="import Location from '@ember/routing/location';$END$" description="Ember.Location" toReformat="true" toShortenFQNames="false" />
+  <template name="imroute" value="import Route from '@ember/routing/route';$END$" description="Ember.Route" toReformat="true" toShortenFQNames="false" />
+  <template name="imlinkComponent" value="import LinkComponent from '@ember/routing/link-component';$END$" description="Ember.LinkComponent" toReformat="true" toShortenFQNames="false" />
+  <template name="imroutingHash" value="import HashLocation from '@ember/routing/hash-location';$END$" description="Ember.HashLocation" toReformat="true" toShortenFQNames="false" />
+  <template name="imroutingHistory" value="import HistoryLocation from '@ember/routing/history-location';$END$" description="Ember.HistoryLocation" toReformat="true" toShortenFQNames="false" />
+  <template name="imnoneLocation" value="import NoneLocation from '@ember/routing/none-location';$END$" description="Ember.NoneLocation" toReformat="true" toShortenFQNames="false" />
+  <template name="imrouter" value="import Router from '@ember/routing/router';$END$" description="Ember.Router" toReformat="true" toShortenFQNames="false" />
 </templateSet>

@@ -1,14 +1,6 @@
 <templateSet group="ember-decorators import component">
-  <template name="imdattribute" value="import { attribute } from 'ember-decorators/component';$END$" description="import { attribute } from 'ember-decorators/component';" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="imdclassName" value="import { className } from 'ember-decorators/component';$END$" description="import { className } from 'ember-decorators/component';" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="imdclassNames" value="import { classNames } from 'ember-decorators/component';$END$" description="import { classNames } from 'ember-decorators/component';" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="imdtagName" value="import { tagName } from 'ember-decorators/component';$END$" description="import { tagName } from 'ember-decorators/component';" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
+  <template name="imdattribute" value="import { attribute } from 'ember-decorators/component';$END$" description="import { attribute } from 'ember-decorators/component';" toReformat="true" toShortenFQNames="false" />
+  <template name="imdclassName" value="import { className } from 'ember-decorators/component';$END$" description="import { className } from 'ember-decorators/component';" toReformat="true" toShortenFQNames="false" />
+  <template name="imdclassNames" value="import { classNames } from 'ember-decorators/component';$END$" description="import { classNames } from 'ember-decorators/component';" toReformat="true" toShortenFQNames="false" />
+  <template name="imdtagName" value="import { tagName } from 'ember-decorators/component';$END$" description="import { tagName } from 'ember-decorators/component';" toReformat="true" toShortenFQNames="false" />
 </templateSet>
