@@ -1,0 +1,5 @@
+<templateSet group="surround">
+  <template name="B" value="{$SELECTION$}" shortcut="NONE" description="Surround with {}" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

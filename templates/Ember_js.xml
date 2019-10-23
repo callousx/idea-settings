@@ -1,0 +1,7 @@
+<templateSet group="Ember.js">
+  <template name="comp" value="$NAME$: Ember.computed('$OTHER$', function() {&#10;  return this.get('$OTHER$');&#10;}),$END$" description="Insert computed property" toReformat="true" toShortenFQNames="false">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="OTHER" expression="" defaultValue="&quot;other&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

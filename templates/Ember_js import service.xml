@@ -1,0 +1,8 @@
+<templateSet group="Ember.js import service">
+  <template name="iminjectService" value="import { inject } from '@ember/service';$END$" description="Ember.inject.service" toReformat="true" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="imservice" value="import Service from '@ember/service';$END$" description="Ember.Service" toReformat="true" toShortenFQNames="false">
+    <context />
+  </template>
+</templateSet>

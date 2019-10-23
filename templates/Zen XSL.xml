@@ -1,0 +1,16 @@
+<templateSet group="Zen XSL">
+  <template name="tm" value="&lt;xsl:template match=&quot;$VAR0$&quot; mode=&quot;$VAR1$&quot;&gt;$END$&lt;/xsl:template&gt;" description="&lt;xsl:template match=&quot;...&quot; mode=&quot;...&quot;&gt;...&lt;/xsl:template&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="choose" value="&lt;xsl:choose&gt;&#10;  &lt;xsl:when test=&quot;$VAR0$&quot;&gt;$VAR1$&lt;/xsl:when&gt;&#10;  &lt;xsl:otherwise&gt;$END$&lt;/xsl:otherwise&gt;&#10;&lt;/xsl:choose&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="tn" value="&lt;xsl:template name=&quot;$VAR0$&quot;&gt;$END$&lt;/xsl:template&gt;" description="&lt;xsl:template name=&quot;...&quot;&gt;...&lt;/xsl:template&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

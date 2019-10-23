@@ -1,0 +1,8 @@
+<templateSet group="Ember.js import map">
+  <template name="immapWDefault" value="import MapWithDefault from '@ember/map/with-default';$END$" description="Ember.MapWithDefault" toReformat="true" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="immap" value="import EmberMap from '@ember/map';$END$" description="Ember.Map" toReformat="true" toShortenFQNames="false">
+    <context />
+  </template>
+</templateSet>

@@ -1,0 +1,10 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="AngularJS.Show.Ui.Router.States.Diagram.Action" is_action="true" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Editor Popup Menu" />
+      <path value="Diagrams" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+  </component>
+</application>
