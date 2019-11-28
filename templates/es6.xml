@@ -279,7 +279,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="kv" value="$key$: $value$," description="Objects and classes: key/value pair" toReformat="false" toShortenFQNames="true">
+  <template name="kv" value="$key$: '$value$'," description="Objects and classes: key/value pair" toReformat="false" toShortenFQNames="true">
     <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
