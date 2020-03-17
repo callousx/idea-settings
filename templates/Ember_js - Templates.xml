@@ -1,6 +1,5 @@
 <templateSet group="Ember.js - Templates">
   <template name="if" value="{{#if $CONDITION$}}&#10;$SELECTION$&#10;{{/if}}" description="Surround with if block" toReformat="true" toShortenFQNames="false">
     <variable name="CONDITION" expression="" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>

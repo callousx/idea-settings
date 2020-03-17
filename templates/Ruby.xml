@@ -1,161 +1,121 @@
 <templateSet group="Ruby">
   <template name="all" value="all? { |$e$| $END$ }" description="all" toReformat="true" toShortenFQNames="true">
     <variable name="e" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="any" value="any? { |$E$| $END$ }" description="any" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="asnr" value="assert_nothing_raised($EXCEPTION$) { $END$ }" description="assert nothing raised" toReformat="true" toShortenFQNames="true">
     <variable name="EXCEPTION" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
-  <template name="asnt" value="assert_nothing_thrown { $END$ }" description="assert nothing thrown" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="asnt" value="assert_nothing_thrown { $END$ }" description="assert nothing thrown" toReformat="true" toShortenFQNames="true" />
   <template name="asr" value="assert_raise($EXCEPTION$) { $END$ }" description="assert raise" toReformat="true" toShortenFQNames="true">
     <variable name="EXCEPTION" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="ast" value="assert_throws(:$EXPECTED$) { $END$ }" description="assert throws" toReformat="true" toShortenFQNames="true">
     <variable name="EXPECTED" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="cl" value="classify { |$E$| $END$ }" description="classify" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="col" value="collect { |$E$| $END$ }" description="collect" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="collect" value="collect { |$ELEMENT$| $ELEMENT$.$END$ }" description="collect" toReformat="true" toShortenFQNames="true">
     <variable name="ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="BLAH" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="det" value="detect { |$E$| $END$ }" description="detect" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="ea" value="each { |$E$| $END$ }" description="each" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="eab" value="each_byte { |$BYTE$| $END$ }" description="each_byte" toReformat="true" toShortenFQNames="true">
     <variable name="BYTE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="eac" value="each_char { |$CHAR$| $END$ }" description="each char" toReformat="true" toShortenFQNames="true">
     <variable name="CHAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="each" value="each { |$ELEMENT$| $ELEMENT$$END$ }" description="each" toReformat="true" toShortenFQNames="true">
     <variable name="ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="each_index" value="each_index { |$I$| $END$ }" description="each index" toReformat="true" toShortenFQNames="true">
     <variable name="I" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="each_key" value="each_key { |$KEY$| $END$ }" description="each_key" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="each_with_index" value="each_with_index { |$ELEMENT$, $INDEX$| $ELEMENT$$END$ }" description="each with index" toReformat="true" toShortenFQNames="true">
     <variable name="ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="eal" value="each_line { |$LINE$| $END$ }" description="each_line" toReformat="true" toShortenFQNames="true">
     <variable name="LINE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="eap" value="each_pair { |$NAME$, $VALUE$| $END$ }" description="each_pair" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="easl" value="each_slice($E$) { |$GROUP$| $END$ }" description="each_slice" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="GROUP" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="eav" value="each_value { |$VALUE$| $END$ }" description="each_value" toReformat="true" toShortenFQNames="true">
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="eawi" value="each_with_index { |$E$, $INDEX$| $END$ }" description="each_with_index" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="fin" value="find { |$E$| $END$ }" description="find" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="fina" value="find_all { |$E$| $END$ }" description="find_all" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="gre" value="grep(/$PATTERN$/) { |$MATCH$| $END$ }" description="grep" toReformat="true" toShortenFQNames="true">
     <variable name="PATTERN" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="MATCH" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="hash" value="Hash.new { |$HASH$, $KEY$| $HASH$[$KEY$] = $END$ }" description="Creates a new Hash" toReformat="true" toShortenFQNames="true">
     <variable name="HASH" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="inj" value="inject($INIT$) { |$MEM$, $VAR$| $END$ }" description="inject" toReformat="true" toShortenFQNames="true">
     <variable name="INIT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="MEM" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="inject" value="inject($OBJ$) { |$INJECTION$, $ELEMENT$| $E$ }$END$" description="inject" toReformat="true" toShortenFQNames="true">
     <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="INJECTION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="map" value="map { |$E$|  }" description="map" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="mapwi" value="enum_with_index.map { |$E$, $I$| $END$ }" description="enum_with_index.map" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="I" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
-  <template name="max" value="max { |a, b| $END$ }" description="max" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="min" value="min { |a, b| $END$ }" description="min" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="max" value="max { |a, b| $END$ }" description="max" toReformat="true" toShortenFQNames="true" />
+  <template name="min" value="min { |a, b| $END$ }" description="min" toReformat="true" toShortenFQNames="true" />
   <template name="par" value="partition { |$E$| $END$ }" description="partition" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="rej" value="reject { |$E$| $END$ }" description="reject" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="reject" value="reject { |$ELEMENT$| $ELEMENT$$END$ }" description="reject element.attribute" toReformat="true" toShortenFQNames="true">
     <variable name="ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="scan" value="scan(/$PATTERN$/) { |$MATCH$| $END$ }" description="scan" toReformat="true" toShortenFQNames="true">
     <variable name="PATTERN" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="MATCH" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="sortby" value="sort_by { |$E$ | $END$ }" description="sort by" toReformat="true" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>
