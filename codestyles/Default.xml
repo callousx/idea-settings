@@ -1,5 +1,6 @@
 <code_scheme name="Default" version="173">
-  <JSCodeStyleSettings>
+  <option name="RIGHT_MARGIN" value="150" />
+  <JSCodeStyleSettings version="0">
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
     <option name="OBJECT_LITERAL_WRAP" value="1" />
