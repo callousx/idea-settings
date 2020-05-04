@@ -1,3 +1,5 @@
 <templateSet group="PHP">
-  <template name="eco" value="echo &quot;$END$&quot;;" description="'echo' statement" toReformat="true" toShortenFQNames="true" />
+  <template name="eco" value="echo &quot;$END$&quot;;" description="'echo' statement" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
