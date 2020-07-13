@@ -7,4 +7,19 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="useStyles" value="const useStyles = makeStyles(theme =&gt;&#10;    createStyles({&#10;        $CLASSES$&#10;    }),&#10;);" description="add useStyles and theme classes from Material-UI" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASSES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="MILiveTemplate" value="true" />
+    </context>
+  </template>
+  <template name="clsi" value="const classes = useStyles();" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="MILiveTemplate" value="true" />
+    </context>
+  </template>
 </templateSet>
