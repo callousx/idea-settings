@@ -15,7 +15,7 @@
       <option name="MILiveTemplate" value="true" />
     </context>
   </template>
-  <template name="clsi" value="const classes = useStyles();" toReformat="true" toShortenFQNames="true">
+  <template name="clsi" value="const classes = useStyles();" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="JS_STATEMENT" value="true" />
