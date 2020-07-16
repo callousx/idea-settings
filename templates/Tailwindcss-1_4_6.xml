@@ -11,6 +11,30 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="inline" value="inline" description="display: inline;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="ELIXIR_CODE" value="true" />
+      <option name="ELM" value="true" />
+      <option name="JADE" value="true" />
+      <option name="LESS" value="true" />
+      <option name="SASS" value="true" />
+      <option name="SCSS" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="inline-flex" value="inline-flex" description="display: inline-flex;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="ELIXIR_CODE" value="true" />
+      <option name="ELM" value="true" />
+      <option name="JADE" value="true" />
+      <option name="LESS" value="true" />
+      <option name="SASS" value="true" />
+      <option name="SCSS" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
   <template name="p-0" value="p-0" description="padding: 0;" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
