@@ -95,4 +95,16 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="underline" value="underline" description="text-decoration: underline;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+      <option name="ELIXIR_CODE" value="true" />
+      <option name="ELM" value="true" />
+      <option name="JADE" value="true" />
+      <option name="LESS" value="true" />
+      <option name="SASS" value="true" />
+      <option name="SCSS" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
