@@ -1,39 +1,6 @@
 <templateSet group="MILiveTemplate">
-  <template name="classcomponent" value="import React from 'react'; import {View} from 'react-native';  class $START$ extends React.Component {     static navigationOptions = {         title: null,     };      constructor(props) {     super(props);     this.state = {}     }      componentWillMount() {     }      componentDidMount() {     }      componentDidUpdate() {     }      componentWillUnmount() {     }      render() {     return (     &lt;View&gt;      &lt;/View&gt;     );     }     }      export default $START$;" description="Create the class with react component with necessary methods and state without redux" toReformat="true" toShortenFQNames="false">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="classcomponentwithredux" value="import React from 'react'; import {View} from 'react-native'; import {connect} from 'react-redux';  class $START$ extends React.Component {     static navigationOptions = {         title: null,     };      constructor(props) {     super(props);     this.state = {}     }      componentWillMount() {     }      componentDidMount() {     }      componentDidUpdate() {     }      componentWillUnmount() {     }      render() {     return (     &lt;View&gt;      &lt;/View&gt;     );     }     }      const mapStateToProps = state =&gt; ({});      const mapDispatchToProps = (dispatch) =&gt; ({});      export default connect(mapStateToProps, mapDispatchToProps)($START$);" description="Create the class with react component with necessary methods and state with redux" toReformat="true" toShortenFQNames="false">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="storeWithThunk" value="import { createStore, applyMiddleware} from 'redux'; import thunk from 'redux-thunk';  const rootStore = createStore(    $START$,    applyMiddleware(thunk) );  export const store = rootStore;" description="Create store with Thunk for the redux" toReformat="true" toShortenFQNames="false">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="Flatlist" value="&lt;FlatList    onEndReached={}    onEndReachedThreshold={0.7}    ListFooterComponent={}    data={}    onRefresh={() =&gt; this.onRefresh()}    refreshing={this.state.isRefreshing}    showsVerticalScrollIndicator={false}    renderItem={(item, position) =&gt; &lt;$START$ data={{item, position}}/&gt;}    keyExtractor={(item, index) =&gt; index.toString()} /&gt;" description="Generate Flatlist" toReformat="true" toShortenFQNames="false">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="Image" value="&lt;Image    style={{width: 50, height: 50}}    resizeMode={'contain'}    source={require('$START$')}/&gt;" description="Simple image with require field" toReformat="true" toShortenFQNames="false">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="ImageWithUri" value="&lt;Image    style={{width: 50, height: 50}}    resizeMode={'contain'}    source={{uri: '$START$'}}/&gt;" description="Image with URI" toReformat="true" toShortenFQNames="false">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
   <template name="Text" value="&lt;Text    style={{        fontSize: 16,        color: Colors.white,    }}    numberOfLines={1}&gt;    $START$ &lt;/Text&gt;" description="Text" toReformat="true" toShortenFQNames="false">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="Model" value="&lt;Modal     animationType='slide'     transparent={false}     visible={this.state.modalVisible}     onRequestClose={() =&gt; {         alert('Modal has been closed.');     }}&gt;     &lt;View style={{}}&gt;      &lt;/View&gt; &lt;/Modal&gt;" description="Text" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="TouchableOpacity" value="&lt;TouchableOpacity     style={}     activeOpacity = { .9 }     onPress={() =&gt; {      }}&gt;     &lt;Text style={{}}&gt;      &lt;/Text&gt; &lt;/TouchableOpacity&gt;" description="TouchableOpacity" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="StyleSheet" value="const styles = StyleSheet.create({   container: {    }, });" description="StyleSheet" toReformat="true" toShortenFQNames="false">
     <context />
   </template>
 </templateSet>
