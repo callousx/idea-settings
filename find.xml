@@ -10,6 +10,7 @@
     <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>sass</mask>
+    <mask>*.hbs</mask>
     <mask>*.js</mask>
   </component>
 </application>
