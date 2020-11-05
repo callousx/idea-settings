@@ -1,8 +1,0 @@
-<application>
-  <component name="FileTypeManager" version="17">
-    <extensionMap>
-      <mapping pattern="NavbarMenu,js" type="PLAIN_TEXT" />
-      <mapping pattern="ChallengeModal" type="TypeScript JSX" />
-    </extensionMap>
-  </component>
-</application>
