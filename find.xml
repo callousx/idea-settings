@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'front-end'" />
-    <option name="defaultScopeName" value="Project 'front-end'" />
-    <option name="SEARCH_SCOPE" value="Project 'front-end'" />
+    <option name="customScope" value="Directory '...'" />
+    <option name="defaultScopeName" value="Directory '...'" />
+    <option name="SEARCH_SCOPE" value="Directory '...'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
