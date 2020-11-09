@@ -10,7 +10,6 @@
     <option name="USE_LIGATURES" value="true" />
   </component>
   <component name="EditorSettings">
-    <option name="IS_BLOCK_CURSOR" value="true" />
     <option name="IS_CAMEL_WORDS" value="true" />
   </component>
   <component name="LiveEditOptions" chromeUpdateApp="true" chromeUpdateOnChanges="true">
