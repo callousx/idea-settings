@@ -1,5 +1,6 @@
 <application>
   <component name="UISettings">
+    <option name="IDE_AA_TYPE" value="Greyscale" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
     <option name="PIN_FIND_IN_PATH_POPUP" value="true" />
     <option name="SHOW_CLOSE_BUTTON" value="false" />
