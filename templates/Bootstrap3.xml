@@ -3,5 +3,6 @@
     <variable name="var1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="var2" expression="inputID" defaultValue="" alwaysStopAt="true" />
     <variable name="var3" expression="Checkbox" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>

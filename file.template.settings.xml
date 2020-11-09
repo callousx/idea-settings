@@ -1,0 +1,7 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <code_templates>
+      <template name="JavaScript Implemented Method Body.js" reformat="true" live-template-enabled="true" enabled="true" />
+    </code_templates>
+  </component>
+</application>
