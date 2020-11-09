@@ -1,12 +1,13 @@
 <application>
   <component name="GroupManager">
+    <option name="showTutorialsOnWelcomeFrame" value="true" />
     <expandedByName>
       <entry name="Tutorials" expanded="true" />
       <entry name="Projects" expanded="true" />
     </expandedByName>
   </component>
   <component name="LangManager">
-    <option name="languageName" value="JAVA" />
+    <option name="languageName" value="JavaScript" />
   </component>
   <component name="LessonStateBase">
     <option name="myMap">
