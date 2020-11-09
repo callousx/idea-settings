@@ -1,8 +1,12 @@
 <templateSet group="bushko_react">
-  <template name="cot" value="const { t } = useTranslation();" toReformat="false" toShortenFQNames="true">
+  <template name="cot" value="const { t } = useTranslation();" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imt" value="import { useTranslation } from 'react-i18next';&#10;" description="import useTranslationus" toReformat="false" toShortenFQNames="true" />
+  <template name="imt" value="import { useTranslation } from 'react-i18next';&#10;" description="import useTranslationus" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
