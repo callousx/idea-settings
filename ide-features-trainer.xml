@@ -2,7 +2,7 @@
   <component name="GroupManager">
     <option name="showTutorialsOnWelcomeFrame" value="true" />
     <expandedByName>
-      <entry name="Tutorials" expanded="true" />
+      <entry name="Tutorials" expanded="false" />
       <entry name="Projects" expanded="true" />
     </expandedByName>
   </component>
@@ -10,71 +10,17 @@
     <option name="languageName" value="JavaScript" />
   </component>
   <component name="LessonStateBase">
-    <option name="myMap">
+    <option name="map">
       <map>
-        <entry key="Actions" value="NOT_PASSED" />
-        <entry key="Basic Completion" value="NOT_PASSED" />
-        <entry key="Class Search" value="NOT_PASSED" />
-        <entry key="CodeAssistance.CodeFormatting" value="NOT_PASSED" />
-        <entry key="CodeAssistance.EditorCodingAssistance" value="NOT_PASSED" />
-        <entry key="CodeAssistance.ParameterInfo" value="NOT_PASSED" />
-        <entry key="CodeAssistance.QuickPopups" value="NOT_PASSED" />
-        <entry key="Collapse" value="NOT_PASSED" />
-        <entry key="Comment Line" value="NOT_PASSED" />
-        <entry key="Completion with Tab" value="NOT_PASSED" />
-        <entry key="Completions.BasicCompletion" value="NOT_PASSED" />
-        <entry key="Completions.CompletionwithTab" value="NOT_PASSED" />
-        <entry key="Completions.SmartTypeCompletion" value="NOT_PASSED" />
-        <entry key="Completions.StatementCompletion" value="NOT_PASSED" />
-        <entry key="Declaration and usages" value="NOT_PASSED" />
-        <entry key="Duplicate" value="NOT_PASSED" />
-        <entry key="EditorBasics.Collapse" value="NOT_PASSED" />
-        <entry key="EditorBasics.CommentLine" value="NOT_PASSED" />
-        <entry key="EditorBasics.DeleteLine" value="NOT_PASSED" />
-        <entry key="EditorBasics.Duplicate" value="NOT_PASSED" />
-        <entry key="EditorBasics.Move" value="NOT_PASSED" />
-        <entry key="EditorBasics.MultipleSelections" value="NOT_PASSED" />
-        <entry key="EditorBasics.Selection" value="NOT_PASSED" />
-        <entry key="File structure" value="NOT_PASSED" />
-        <entry key="Hippie Completion" value="NOT_PASSED" />
-        <entry key="Move" value="NOT_PASSED" />
-        <entry key="Multiple Selections" value="NOT_PASSED" />
-        <entry key="Navigation.Declaration/Implementation" value="NOT_PASSED" />
-        <entry key="Navigation.FileStructure" value="NOT_PASSED" />
-        <entry key="Navigation.JumptoSource" value="NOT_PASSED" />
-        <entry key="Navigation.Next/PreviousOccurrences" value="NOT_PASSED" />
-        <entry key="Postfix Completion" value="NOT_PASSED" />
-        <entry key="Refactorings.ExtractMethod" value="NOT_PASSED" />
-        <entry key="Refactorings.ExtractVariable/Field" value="NOT_PASSED" />
-        <entry key="Refactorings.RefactoringBasics" value="NOT_PASSED" />
-        <entry key="Refactorings.Rename" value="NOT_PASSED" />
-        <entry key="Select" value="NOT_PASSED" />
-        <entry key="Smart Type Completion" value="NOT_PASSED" />
-        <entry key="Statement Completion" value="NOT_PASSED" />
-        <entry key="swift.codeassistance.codeformatting" value="NOT_PASSED" />
-        <entry key="swift.codeassistance.quickpopups" value="NOT_PASSED" />
-        <entry key="swift.codegeneration.createfromusage" value="NOT_PASSED" />
-        <entry key="swift.codegeneration.generate" value="NOT_PASSED" />
-        <entry key="swift.codegeneration.overrideimplement" value="NOT_PASSED" />
-        <entry key="swift.codegeneration.quickfixes" value="NOT_PASSED" />
-        <entry key="swift.completions.basiccompletion" value="NOT_PASSED" />
-        <entry key="swift.editorbasics.collapse" value="NOT_PASSED" />
-        <entry key="swift.editorbasics.commentline" value="NOT_PASSED" />
-        <entry key="swift.editorbasics.deleteline" value="NOT_PASSED" />
-        <entry key="swift.editorbasics.duplicate" value="NOT_PASSED" />
-        <entry key="swift.editorbasics.move" value="NOT_PASSED" />
-        <entry key="swift.editorbasics.multipleselections" value="NOT_PASSED" />
-        <entry key="swift.editorbasics.selection" value="NOT_PASSED" />
-        <entry key="swift.navigation.code" value="NOT_PASSED" />
-        <entry key="swift.navigation.search" value="NOT_PASSED" />
-        <entry key="swift.navigation.toolwindows" value="NOT_PASSED" />
-        <entry key="swift.rdt.debug" value="NOT_PASSED" />
-        <entry key="swift.rdt.run" value="NOT_PASSED" />
-        <entry key="swift.rdt.test" value="NOT_PASSED" />
-        <entry key="swift.refactorings.extract.closure" value="NOT_PASSED" />
-        <entry key="swift.refactorings.extract.method" value="NOT_PASSED" />
-        <entry key="swift.refactorings.extract.variable" value="NOT_PASSED" />
-        <entry key="swift.refactorings.rename" value="NOT_PASSED" />
+        <entry key="before debugging: run/debug configurations" value="NOT_PASSED" />
+        <entry key="code editing tips and tricks" value="NOT_PASSED" />
+        <entry key="debugging code. part i" value="NOT_PASSED" />
+        <entry key="debugging code. part ii" value="NOT_PASSED" />
+        <entry key="fundamentals of testing in webstorm" value="NOT_PASSED" />
+        <entry key="refactorings in a nutshell" value="NOT_PASSED" />
+        <entry key="secrets of efficient navigation" value="NOT_PASSED" />
+        <entry key="the nuts and bolts of code completion" value="NOT_PASSED" />
+        <entry key="the power of code inspections" value="NOT_PASSED" />
       </map>
     </option>
   </component>
