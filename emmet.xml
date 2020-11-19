@@ -2,7 +2,4 @@
   <component name="CssEmmetOptions">
     <option name="fuzzySearchEnabled" value="false" />
   </component>
-  <component name="EmmetOptions">
-    <option name="previewEnabled" value="true" />
-  </component>
 </application>
