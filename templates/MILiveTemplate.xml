@@ -1,6 +1,5 @@
 <templateSet group="MILiveTemplate">
   <template name="Text" value="&lt;Text    style={{        fontSize: 16,        color: Colors.white,    }}    numberOfLines={1}&gt;    $START$ &lt;/Text&gt;" description="Text" toReformat="true" toShortenFQNames="false">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>
