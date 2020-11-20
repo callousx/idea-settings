@@ -20,7 +20,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="classes" value=" onst classes = useStyles();" description="add classes to react component" toReformat="true" toShortenFQNames="true">
+  <template name="classes" value=" const classes = useStyles();" description="add classes to react component" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
