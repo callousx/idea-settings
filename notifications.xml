@@ -1,0 +1,5 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="ESLint plugin" shouldLog="false" />
+  </component>
+</application>

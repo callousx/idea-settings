@@ -1,0 +1,7 @@
+<templateSet group="Bootstrap3">
+  <template name="bs3-checkbox" value="&lt;div class=&quot;checkbox&quot;&gt;&#10;&#9;&lt;label&gt;&#10;&#9;&#9;&lt;input type=&quot;checkbox&quot; value=&quot;$var1$&quot; id=&quot;$var2$&quot;&gt;&#10;&#9;&#9;$var3$&#10;&#9;&lt;/label&gt;&#10;&lt;/div&gt;$END$" description="Checkbox Input Field" toReformat="true" toShortenFQNames="false">
+    <variable name="var1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="inputID" defaultValue="" alwaysStopAt="true" />
+    <variable name="var3" expression="Checkbox" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>

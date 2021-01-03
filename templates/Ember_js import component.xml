@@ -1,0 +1,8 @@
+<templateSet group="Ember.js import component">
+  <template name="imcomponent" value="import Component from '@ember/component';$END$" description="Ember.Component" toReformat="true" toShortenFQNames="false" />
+  <template name="imtextField" value="import TextField from '@ember/component/text-field';$END$" description="Ember.TextField" toReformat="true" toShortenFQNames="false" />
+  <template name="imcheckbox" value="import Checkbox from '@ember/component/checkbox';$END$" description="Ember.Checkbox" toReformat="true" toShortenFQNames="false" />
+  <template name="imhelper" value="import Helper from '@ember/component/helper';$END$" description="Ember.Helper" toReformat="true" toShortenFQNames="false" />
+  <template name="imhelperHelper" value="import { helper } from '@ember/component/helper';$END$" description="Ember.Helper.helper" toReformat="true" toShortenFQNames="false" />
+  <template name="imtextArea" value="import TextArea from '@ember/component/text-area';$END$" description="Ember.TextArea" toReformat="true" toShortenFQNames="false" />
+</templateSet>

@@ -1,0 +1,25 @@
+<templateSet group="user">
+  <template name="coR" value="const $NAME$ = () =&gt; {&#10;    return (&#10;        &lt;div&gt;&#10;            $OBJECT$&#10;        &lt;/div&gt;&#10;    );&#10;};" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="useStyles" value="const useStyles = makeStyles(theme =&gt;&#10;    createStyles({&#10;        $CLASSES$&#10;    }),&#10;);" description="add useStyles and theme classes from Material-UI" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASSES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="MILiveTemplate" value="true" />
+    </context>
+  </template>
+  <template name="clsi" value="const classes = useStyles();" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="MILiveTemplate" value="true" />
+    </context>
+  </template>
+</templateSet>

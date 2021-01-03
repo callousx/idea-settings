@@ -1,0 +1,8 @@
+<templateSet group="Ember.js import test">
+  <template name="imtestAdapter" value="import Test.Adapter from '@ember/test/adapter';$END$" description="Ember.Test.Adapter" toReformat="true" toShortenFQNames="false" />
+  <template name="imunregisterHelper" value="import { unregisterHelper } from '@ember/test';$END$" description="Ember.Test.unregisterHelper" toReformat="true" toShortenFQNames="false" />
+  <template name="imregisterAsyncHelper" value="import { registerAsyncHelper } from '@ember/test';$END$" description="Ember.Test.registerAsyncHelper" toReformat="true" toShortenFQNames="false" />
+  <template name="imunregisterWaiter" value="import { unregisterWaiter } from '@ember/test';$END$" description="Ember.Test.unregisterWaiter" toReformat="true" toShortenFQNames="false" />
+  <template name="imregisterHelper" value="import { registerHelper } from '@ember/test';$END$" description="Ember.Test.registerHelper" toReformat="true" toShortenFQNames="false" />
+  <template name="imregisterWaiter" value="import { registerWaiter } from '@ember/test';$END$" description="Ember.Test.registerWaiter" toReformat="true" toShortenFQNames="false" />
+</templateSet>
