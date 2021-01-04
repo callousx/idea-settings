@@ -1,0 +1,10 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="ReactComponent with index.js.js" file-name="${NAME}/${NAME}" reformat="true" live-template-enabled="true">
+        <template name="ReactComponent with index.js.js.child.0.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="ReactComponent with index.js.js.child.0.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
+    </default_templates>
+  </component>
+</application>
