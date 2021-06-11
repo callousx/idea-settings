@@ -22,4 +22,36 @@
       <option name="MILiveTemplate" value="true" />
     </context>
   </template>
+  <template name="cot" value="const { t } = useTranslation();" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imt" value="import { useTranslation } from 'react-i18next';&#10;" description="import useTranslationus" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cos" value="const classes = useStyles();" description="declaration classes" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="brm" value="[theme.breakpoints.down('$breakpoint$')]: {&#10;    $SELECTION$$END$&#10;}," description="Material Breackpoint" toReformat="true" toShortenFQNames="true">
+    <variable name="breakpoint" expression="" defaultValue="sm" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="classes" value=" const classes = useStyles();" description="add classes to react component" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="arf" value="  const $NAME$ = () =&gt; {&#10;    $END$&#10;  }&#10;" description="Arrow function for state" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
