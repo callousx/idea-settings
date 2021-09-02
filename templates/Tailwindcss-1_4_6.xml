@@ -1,5 +1,5 @@
 <templateSet group="Tailwindcss-1.4.6">
-  <template name="relative" value="relative" description="position: relative;" toReformat="true" toShortenFQNames="true">
+  <template name="relative" value="relative" description="position: relative;" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="DART" value="true" />
       <option name="ELIXIR_CODE" value="true" />

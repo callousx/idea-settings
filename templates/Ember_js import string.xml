@@ -1,13 +1,13 @@
 <templateSet group="Ember.js import string">
-  <template name="imcamelize" value="import { camelize } from '@ember/string';$END$" description="Ember.String.camelize" toReformat="true" toShortenFQNames="false" />
-  <template name="imdecamelize" value="import { decamelize } from '@ember/string';$END$" description="Ember.String.decamelize" toReformat="true" toShortenFQNames="false" />
-  <template name="imcapitalize" value="import { capitalize } from '@ember/string';$END$" description="Ember.String.capitalize" toReformat="true" toShortenFQNames="false" />
-  <template name="imunderscore" value="import { underscore } from '@ember/string';$END$" description="Ember.String.underscore" toReformat="true" toShortenFQNames="false" />
-  <template name="imclassify" value="import { classify } from '@ember/string';$END$" description="Ember.String.classify" toReformat="true" toShortenFQNames="false" />
-  <template name="imhtmlSafe" value="import { htmlSafe } from '@ember/string';$END$" description="Ember.String.htmlSafe" toReformat="true" toShortenFQNames="false" />
-  <template name="imdasherize" value="import { dasherize } from '@ember/string';$END$" description="Ember.String.dasherize" toReformat="true" toShortenFQNames="false" />
-  <template name="imw" value="import { w } from '@ember/string';$END$" description="Ember.String.w" toReformat="true" toShortenFQNames="false" />
-  <template name="imisHtmlSafe" value="import { isHtmlSafe } from '@ember/string';$END$" description="Ember.String.isHtmlSafe" toReformat="true" toShortenFQNames="false" />
-  <template name="imfmt" value="import { fmt } from '@ember/string';$END$" description="Ember.String.fmt" toReformat="true" toShortenFQNames="false" />
-  <template name="imloc" value="import { loc } from '@ember/string';$END$" description="Ember.String.loc" toReformat="true" toShortenFQNames="false" />
+  <template name="imcamelize" value="import { camelize } from '@ember/string';$END$" description="Ember.String.camelize" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imdecamelize" value="import { decamelize } from '@ember/string';$END$" description="Ember.String.decamelize" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imcapitalize" value="import { capitalize } from '@ember/string';$END$" description="Ember.String.capitalize" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imunderscore" value="import { underscore } from '@ember/string';$END$" description="Ember.String.underscore" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imclassify" value="import { classify } from '@ember/string';$END$" description="Ember.String.classify" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imhtmlSafe" value="import { htmlSafe } from '@ember/string';$END$" description="Ember.String.htmlSafe" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imdasherize" value="import { dasherize } from '@ember/string';$END$" description="Ember.String.dasherize" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imw" value="import { w } from '@ember/string';$END$" description="Ember.String.w" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imisHtmlSafe" value="import { isHtmlSafe } from '@ember/string';$END$" description="Ember.String.isHtmlSafe" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imfmt" value="import { fmt } from '@ember/string';$END$" description="Ember.String.fmt" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imloc" value="import { loc } from '@ember/string';$END$" description="Ember.String.loc" toReformat="true" toShortenFQNames="false" deactivated="true" />
 </templateSet>

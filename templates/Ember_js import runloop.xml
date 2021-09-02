@@ -1,15 +1,15 @@
 <templateSet group="Ember.js import runloop">
-  <template name="imscheduleOnce" value="import { scheduleOnce } from '@ember/runloop';$END$" description="Ember.run.scheduleOnce" toReformat="true" toShortenFQNames="false" />
-  <template name="imthrottle" value="import { throttle } from '@ember/runloop';$END$" description="Ember.run.throttle" toReformat="true" toShortenFQNames="false" />
-  <template name="imbegin" value="import { begin } from '@ember/runloop';$END$" description="Ember.run.begin" toReformat="true" toShortenFQNames="false" />
-  <template name="imlater" value="import { later } from '@ember/runloop';$END$" description="Ember.run.later" toReformat="true" toShortenFQNames="false" />
-  <template name="imbind" value="import { bind } from '@ember/runloop';$END$" description="Ember.run.bind" toReformat="true" toShortenFQNames="false" />
-  <template name="imend" value="import { end } from '@ember/runloop';$END$" description="Ember.run.end" toReformat="true" toShortenFQNames="false" />
-  <template name="imschedule" value="import { schedule } from '@ember/runloop';$END$" description="Ember.run.schedule" toReformat="true" toShortenFQNames="false" />
-  <template name="imcancel" value="import { cancel } from '@ember/runloop';$END$" description="Ember.run.cancel" toReformat="true" toShortenFQNames="false" />
-  <template name="imrun" value="import { run } from '@ember/runloop';$END$" description="Ember.run" toReformat="true" toShortenFQNames="false" />
-  <template name="imonce" value="import { once } from '@ember/runloop';$END$" description="Ember.run.once" toReformat="true" toShortenFQNames="false" />
-  <template name="imjoin" value="import { join } from '@ember/runloop';$END$" description="Ember.run.join" toReformat="true" toShortenFQNames="false" />
-  <template name="imnext" value="import { next } from '@ember/runloop';$END$" description="Ember.run.next" toReformat="true" toShortenFQNames="false" />
-  <template name="imdebounce" value="import { debounce } from '@ember/runloop';$END$" description="Ember.run.debounce" toReformat="true" toShortenFQNames="false" />
+  <template name="imscheduleOnce" value="import { scheduleOnce } from '@ember/runloop';$END$" description="Ember.run.scheduleOnce" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imthrottle" value="import { throttle } from '@ember/runloop';$END$" description="Ember.run.throttle" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imbegin" value="import { begin } from '@ember/runloop';$END$" description="Ember.run.begin" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imlater" value="import { later } from '@ember/runloop';$END$" description="Ember.run.later" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imbind" value="import { bind } from '@ember/runloop';$END$" description="Ember.run.bind" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imend" value="import { end } from '@ember/runloop';$END$" description="Ember.run.end" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imschedule" value="import { schedule } from '@ember/runloop';$END$" description="Ember.run.schedule" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imcancel" value="import { cancel } from '@ember/runloop';$END$" description="Ember.run.cancel" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imrun" value="import { run } from '@ember/runloop';$END$" description="Ember.run" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imonce" value="import { once } from '@ember/runloop';$END$" description="Ember.run.once" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imjoin" value="import { join } from '@ember/runloop';$END$" description="Ember.run.join" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imnext" value="import { next } from '@ember/runloop';$END$" description="Ember.run.next" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imdebounce" value="import { debounce } from '@ember/runloop';$END$" description="Ember.run.debounce" toReformat="true" toShortenFQNames="false" deactivated="true" />
 </templateSet>

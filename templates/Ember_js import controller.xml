@@ -1,4 +1,4 @@
 <templateSet group="Ember.js import controller">
-  <template name="imcontroller" value="import Controller from '@ember/controller';$END$" description="Ember.Controller" toReformat="true" toShortenFQNames="false" />
-  <template name="iminjectController" value="import { inject } from '@ember/controller';$END$" description="Ember.inject.controller" toReformat="true" toShortenFQNames="false" />
+  <template name="imcontroller" value="import Controller from '@ember/controller';$END$" description="Ember.Controller" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="iminjectController" value="import { inject } from '@ember/controller';$END$" description="Ember.inject.controller" toReformat="true" toShortenFQNames="false" deactivated="true" />
 </templateSet>

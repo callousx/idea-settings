@@ -1,5 +1,5 @@
 <templateSet group="Ember.js import engine">
-  <template name="imgetEngineParent" value="import { getEngineParent } from '@ember/engine';$END$" description="Ember.getEngineParent" toReformat="true" toShortenFQNames="false" />
-  <template name="imengineInst" value="import EngineInstance from '@ember/engine/instance';$END$" description="Ember.EngineInstance" toReformat="true" toShortenFQNames="false" />
-  <template name="imengine" value="import Engine from '@ember/engine';$END$" description="Ember.Engine" toReformat="true" toShortenFQNames="false" />
+  <template name="imgetEngineParent" value="import { getEngineParent } from '@ember/engine';$END$" description="Ember.getEngineParent" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imengineInst" value="import EngineInstance from '@ember/engine/instance';$END$" description="Ember.EngineInstance" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imengine" value="import Engine from '@ember/engine';$END$" description="Ember.Engine" toReformat="true" toShortenFQNames="false" deactivated="true" />
 </templateSet>

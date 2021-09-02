@@ -1,5 +1,5 @@
 <templateSet group="ember-decorators import data">
-  <template name="imdattr" value="import { attr } from 'ember-decorators/data';$END$" description="import { attr } from 'ember-decorators/data';" toReformat="true" toShortenFQNames="false" />
-  <template name="imdbelongsTo" value="import { belongsTo } from 'ember-decorators/data';$END$" description="import { belongsTo } from 'ember-decorators/data';" toReformat="true" toShortenFQNames="false" />
-  <template name="imdhasMany" value="import { hasMany } from 'ember-decorators/data';$END$" description="import { hasMany } from 'ember-decorators/data';" toReformat="true" toShortenFQNames="false" />
+  <template name="imdattr" value="import { attr } from 'ember-decorators/data';$END$" description="import { attr } from 'ember-decorators/data';" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imdbelongsTo" value="import { belongsTo } from 'ember-decorators/data';$END$" description="import { belongsTo } from 'ember-decorators/data';" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imdhasMany" value="import { hasMany } from 'ember-decorators/data';$END$" description="import { hasMany } from 'ember-decorators/data';" toReformat="true" toShortenFQNames="false" deactivated="true" />
 </templateSet>
