@@ -43,12 +43,12 @@
       <option name="JS_TOP_LEVEL_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="clsx" value="clsx([$SELECTION$$END$])" toReformat="false" toShortenFQNames="true">
+  <template name="clsx" value="clsx([$SELECTION$$END$])" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="&amp;" value="'&amp;$CLASS$': {&#10;    $SELECTION$$STYLES$&#10;},$END$" toReformat="true" toShortenFQNames="true">
+  <template name="&amp;" value="'&amp;$CLASS$': {&#10;    $SELECTION$$STYLES$&#10;},$END$" description="" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="STYLES" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
