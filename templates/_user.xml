@@ -103,12 +103,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="t" value="{t($SELECTION$)}" toReformat="false" toShortenFQNames="true">
+  <template name="{t" value="{t($SELECTION$)}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="t&quot;" value="{t(&quot;$SELECTION$&quot;)}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="{t&quot;" value="{t(&quot;$SELECTION$&quot;)}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
