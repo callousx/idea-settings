@@ -113,4 +113,17 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="kk" value="&quot;$KEY$&quot;: &quot;$CLIPBOARD$&quot;$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="KEY" expression="snakeCase(clipboard())" defaultValue="$END$" alwaysStopAt="true" />
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="k" value="$NAME$: {&#10;$END$&#10;}," toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="clipboard()" defaultValue="className" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
