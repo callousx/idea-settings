@@ -1,0 +1,9 @@
+<templateSet group="_user(JSON)">
+  <template name="k" value="&quot;$KEY$&quot;: &quot;$CLIPBOARD$&quot;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="KEY" expression="snakeCase(clipboard())" defaultValue="$END$" alwaysStopAt="true" />
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+</templateSet>
