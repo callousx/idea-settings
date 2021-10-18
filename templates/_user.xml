@@ -130,7 +130,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name=":f" value="'&amp;:first-child': {&#10;    $END$&#10;}" description="last-child" toReformat="true" toShortenFQNames="true">
+  <template name=":f" value="'&amp;:first-child': {&#10;    $END$&#10;}" description="first-child" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="ECMAScript6" value="true" />
       <option name="ES6_CLASS" value="false" />
@@ -145,7 +145,37 @@
       <option name="JS_TOP_LEVEL_STATEMENT" value="false" />
     </context>
   </template>
-  <template name=":h" value="'&amp;:hover': {&#10;    $END$&#10;}" description="last-child" toReformat="true" toShortenFQNames="true">
+  <template name=":h" value="'&amp;:hover': {&#10;    $END$&#10;}" description="hover" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="ES6_CLASS" value="false" />
+      <option name="ES6_EXPRESSION" value="false" />
+      <option name="ES6_STATEMENT" value="false" />
+      <option name="ES6_TOP_LEVEL_STATEMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name=":b" value="'&amp;:before': {&#10;    $END$&#10;}" description="before" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="ES6_CLASS" value="false" />
+      <option name="ES6_EXPRESSION" value="false" />
+      <option name="ES6_STATEMENT" value="false" />
+      <option name="ES6_TOP_LEVEL_STATEMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name=":a" value="'&amp;:after': {&#10;    $END$&#10;}" description="after" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="ECMAScript6" value="true" />
       <option name="ES6_CLASS" value="false" />
