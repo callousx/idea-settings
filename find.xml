@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="Buttons" />
     <option name="defaultScopeName" value="Buttons" />
-    <option name="wholeWordsOnly" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Buttons" />
     <mask>*.css</mask>
     <mask>*.html</mask>
