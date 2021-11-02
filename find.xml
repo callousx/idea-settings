@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Hide Last post at filter" />
-    <option name="defaultScopeName" value="Hide Last post at filter" />
-    <option name="SEARCH_SCOPE" value="Hide Last post at filter" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
