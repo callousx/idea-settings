@@ -1,9 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Hide Last post at filter" />
     <option name="defaultScopeName" value="Hide Last post at filter" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Hide Last post at filter" />
     <mask>*.css</mask>
     <mask>*.html</mask>
