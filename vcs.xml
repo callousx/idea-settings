@@ -15,6 +15,7 @@
     <option name="cloneParentDir" value="$USER_HOME$/Projects" />
   </component>
   <component name="Vcs.Log.App.Settings">
+    <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
     <option name="COLUMN_ID_ORDER">
       <list>
         <option value="Default.Root" />
