@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="phone-frame" type="AUTO_DETECTED" />
+      <mapping pattern="Section.js" type="AUTO_DETECTED" />
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
       <mapping pattern="NavbarMenu,js" type="PLAIN_TEXT" />
       <mapping ext=".tabnine.model" type="Tabnine project model file" />
