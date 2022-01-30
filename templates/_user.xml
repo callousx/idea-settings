@@ -103,7 +103,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="{t" value="{t($SELECTION$)}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="{t" value="{t($SELECTION$)}" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -119,8 +119,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="t" value="t(&quot;$Translayion$&quot;)" description="translation" toReformat="false" toShortenFQNames="true">
-    <variable name="Translayion" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="t" value="t(&quot;$SELECTION$&quot;)" description="translation" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
