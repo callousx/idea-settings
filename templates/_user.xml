@@ -189,4 +189,19 @@
       <option name="JS_TOP_LEVEL_STATEMENT" value="false" />
     </context>
   </template>
+  <template name=":n" value="'&amp;:nth-child(3)': {&#10;    $END$&#10;}" description="first-child" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="ES6_CLASS" value="false" />
+      <option name="ES6_EXPRESSION" value="false" />
+      <option name="ES6_STATEMENT" value="false" />
+      <option name="ES6_TOP_LEVEL_STATEMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="false" />
+    </context>
+  </template>
 </templateSet>
