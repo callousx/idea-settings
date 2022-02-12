@@ -1,12 +1,12 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="Project 'front-end'" />
-    <option name="defaultScopeName" value="Project 'front-end'" />
+    <option name="customScope" value="Project 'participantapp'" />
+    <option name="defaultScopeName" value="Project 'participantapp'" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'front-end'" />
+    <option name="SEARCH_SCOPE" value="Project 'participantapp'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
