@@ -1,0 +1,7 @@
+<templateSet group="Ember.js import polyfills">
+  <template name="imhasPropertyAccessors" value="import { hasPropertyAccessors } from '@ember/polyfills';$END$" description="Ember.platform.hasPropertyAccessors" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imcreate" value="import { create } from '@ember/polyfills';$END$" description="Ember.create" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="immerge" value="import { merge } from '@ember/polyfills';$END$" description="Ember.merge" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imassign" value="import { assign } from '@ember/polyfills';$END$" description="Ember.assign" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imkeys" value="import { keys } from '@ember/polyfills';$END$" description="Ember.keys" toReformat="true" toShortenFQNames="false" deactivated="true" />
+</templateSet>

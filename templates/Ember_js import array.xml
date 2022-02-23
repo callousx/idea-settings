@@ -1,0 +1,8 @@
+<templateSet group="Ember.js import array">
+  <template name="imarrayProxy" value="import ArrayProxy from '@ember/array/proxy';$END$" description="Ember.ArrayProxy" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imisArray" value="import { isArray } from '@ember/array';$END$" description="Ember.isArray" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imemberArray" value="import { A } from '@ember/array';$END$" description="Ember.A" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="immutArray" value="import MutableArray from '@ember/array/mutable';$END$" description="Ember.MutableArray" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="imarray" value="import EmberArray from '@ember/array';$END$" description="Ember.Array" toReformat="true" toShortenFQNames="false" deactivated="true" />
+  <template name="immakeArray" value="import { makeArray } from '@ember/array';$END$" description="Ember.makeArray" toReformat="true" toShortenFQNames="false" deactivated="true" />
+</templateSet>

@@ -1,0 +1,16 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="arf@userDefined" key=".arf" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="const $EXPR$ = () =&gt; {&#10;    $END$&#10;  }" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="co@userDefined" key=".co" provider="builtin.js" language-level="ES6" topmost="true">
+      <conditions />
+      <template name="fakeKey" value="const $EXPR$ = $END$" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="is@userDefined" key=".is" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="{$END$ &amp;&amp; ($EXPR$)}" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+</application>
