@@ -15,6 +15,7 @@
         <entry key="Encoding" value="false" />
         <entry key="Memory" value="true" />
         <entry key="PowerSaveMode" value="true" />
+        <entry key="git" value="false" />
       </map>
     </option>
   </component>
