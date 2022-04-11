@@ -224,4 +224,9 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="igsap" value="import { gsap } from 'gsap'" description="Import gsap" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
