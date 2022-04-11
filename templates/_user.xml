@@ -204,4 +204,24 @@
       <option name="JS_TOP_LEVEL_STATEMENT" value="false" />
     </context>
   </template>
+  <template name="q" value="const q = gsap.utils.selector($SELECTOR$)" description="gsap utils selector" toReformat="true" toShortenFQNames="true">
+    <variable name="SELECTOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tl" value="const tl = gsap.timeline()" description="gsap.timeline()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="useGsap" value="useLayoutEffect(() =&gt; {&#10;    tl.from(q('.$CLASS$'), {&#10;      // delay: 0.5,&#10;      x: -40,&#10;      opacity: 0.6,&#10;      stagger: 0.1,&#10;      // ease: &quot;power3.out&quot;&#10;    })&#10;  }, []);" description="useLayoutEffect gsap" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
