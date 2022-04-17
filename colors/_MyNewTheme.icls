@@ -1,11 +1,11 @@
-<scheme name="MyNewTheme" version="142" parent_scheme="Darcula">
+<scheme name="_MyNewTheme" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-12-04T11:25:46</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2020-03-20T15:39:35</property>
-    <property name="originalScheme">_@user_Material Palenight</property>
+    <property name="created">2022-04-17T15:30:34</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2022.1.0.0</property>
+    <property name="modified">2022-04-17T15:30:36</property>
+    <property name="originalScheme">MyNewTheme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
   <option name="EDITOR_FONT_SIZE" value="16" />
@@ -997,7 +997,6 @@
         <option name="FOREGROUND" value="c3e88d" />
       </value>
     </option>
-    <option name="Groovy method declaration" baseAttributes="METHOD_DECLARATION_ATTRIBUTES" />
     <option name="HAML_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT" />
     <option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL" />
     <option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
@@ -1322,13 +1321,11 @@
     <option name="KOTLIN_IMPLICIT_EXHAUSTIVE_WHEN">
       <value />
     </option>
-    <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="KOTLIN_NAMED_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="f77669" />
       </value>
     </option>
-    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="KOTLIN_PROPERTY_WITH_BACKING_FIELD">
       <value />
     </option>
@@ -1347,7 +1344,6 @@
         <option name="FOREGROUND" value="f77669" />
       </value>
     </option>
-    <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="LABEL">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -1386,7 +1382,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="List/map to object conversion" baseAttributes="JAVA_NUMBER" />
     <option name="MACRONAME">
       <value>
         <option name="FOREGROUND" value="908b25" />
@@ -3227,7 +3222,6 @@
         <option name="BACKGROUND" value="34324a" />
       </value>
     </option>
-    <option name="SQL_SYNTHETIC_ENTITY" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f78c6c" />
