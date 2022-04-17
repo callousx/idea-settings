@@ -6,15 +6,15 @@
       <mapping pattern="Images.js" type="AUTO_DETECTED" />
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
       <mapping pattern="NavbarMenu,js" type="PLAIN_TEXT" />
-      <mapping ext=".tabnine.model" type="Tabnine project model file" />
-      <mapping ext=".tabnine" type="Tabnine project model file" />
-      <mapping ext=".model" type="Tabnine project model file" />
-      <mapping ext="tabnine" type="Tabnine project model file" />
-      <mapping ext="model" type="Tabnine project model file" />
       <mapping pattern="ChallengeModal" type="TypeScript JSX" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping pattern=".env" approved="true" type="PLAIN_TEXT" />
+      <mapping ext=".model" type="Tabnine project model file" />
+      <mapping ext=".tabnine" type="Tabnine project model file" />
+      <mapping ext=".tabnine.model" type="Tabnine project model file" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="model" type="Tabnine project model file" />
+      <mapping ext="tabnine" type="Tabnine project model file" />
     </extensionMap>
   </component>
 </application>
