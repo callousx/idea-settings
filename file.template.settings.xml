@@ -1,6 +1,42 @@
 <application>
   <component name="ExportableFileTemplateSettings">
     <default_templates>
+      <template name="Component in folder.js" file-name="${NAME}/${NAME}" reformat="true" live-template-enabled="false">
+        <template name="Component in folder.js.child.0.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="Component in folder +  styles.jsx + stories.js.js" file-name="${NAME}/${NAME}" reformat="true" live-template-enabled="false">
+        <template name="Component in folder +  styles.jsx + stories.js.js.child.0.jsx" file-name="${NAME}/${NAME}.styles" reformat="true" live-template-enabled="false" />
+        <template name="Component in folder +  styles.jsx + stories.js.js.child.1.js" file-name="${NAME}/${NAME}.stories" reformat="true" live-template-enabled="false" />
+        <template name="Component in folder +  styles.jsx + stories.js.js.child.2.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="Component in folder +  styles.jsx + stories.js.js.child.0.jsx" file-name="${NAME}/${NAME}.styles" reformat="true" live-template-enabled="false" />
+      <template name="Component in folder +  styles.jsx + stories.js.js.child.1.js" file-name="${NAME}/${NAME}.stories" reformat="true" live-template-enabled="false" />
+      <template name="Component in folder +  styles.jsx + stories.js.js.child.2.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
+      <template name="Component in folder + STORIES.js" file-name="${NAME}/${NAME}" reformat="true" live-template-enabled="false">
+        <template name="Component in folder + STORIES.js.child.0.js" file-name="${NAME}/${NAME}.stories" reformat="true" live-template-enabled="false" />
+        <template name="Component in folder + STORIES.js.child.1.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="Component in folder + STORIES.js.child.0.js" file-name="${NAME}/${NAME}.stories" reformat="true" live-template-enabled="false" />
+      <template name="Component in folder + STORIES.js.child.1.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
+      <template name="Component in folder.js.child.0.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
+      <template name="MUI5 Component in folder.js" file-name="${NAME}/${NAME}" reformat="true" live-template-enabled="false">
+        <template name="MUI5 Component in folder.js.child.0.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="MUI5 Component in folder + .styles.jsx + .stories.js.js" file-name="${NAME}/${NAME}" reformat="true" live-template-enabled="false">
+        <template name="MUI5 Component in folder + .styles.jsx + .stories.js.js.child.0.js" file-name="${NAME}/${NAME}.stories" reformat="true" live-template-enabled="false" />
+        <template name="MUI5 Component in folder + .styles.jsx + .stories.js.js.child.1.jsx" file-name="${NAME}/${NAME}.styles" reformat="true" live-template-enabled="false" />
+        <template name="MUI5 Component in folder + .styles.jsx + .stories.js.js.child.2.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="MUI5 Component in folder + .styles.jsx + .stories.js.js.child.0.js" file-name="${NAME}/${NAME}.stories" reformat="true" live-template-enabled="false" />
+      <template name="MUI5 Component in folder + .styles.jsx + .stories.js.js.child.1.jsx" file-name="${NAME}/${NAME}.styles" reformat="true" live-template-enabled="false" />
+      <template name="MUI5 Component in folder + .styles.jsx + .stories.js.js.child.2.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
+      <template name="MUI5 Component in folder + STORIES.js" file-name="${NAME}/${NAME}" reformat="true" live-template-enabled="false">
+        <template name="MUI5 Component in folder + STORIES.js.child.0.js" file-name="${NAME}/${NAME}.stories" reformat="true" live-template-enabled="false" />
+        <template name="MUI5 Component in folder + STORIES.js.child.1.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="MUI5 Component in folder + STORIES.js.child.0.js" file-name="${NAME}/${NAME}.stories" reformat="true" live-template-enabled="false" />
+      <template name="MUI5 Component in folder + STORIES.js.child.1.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
+      <template name="MUI5 Component in folder.js.child.0.js" file-name="${NAME}/index" reformat="true" live-template-enabled="false" />
       <template name="STORIES (simple).js" file-name="${NAME}.stories" reformat="true" live-template-enabled="false" />
     </default_templates>
   </component>
