@@ -235,7 +235,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="kkk" value="export const $KEY$Icon = (props) =&gt; (&#10;  &lt;SvgIcon {...props}&gt;&#10;    $CLIPBOARD$&#10;  &lt;/SvgIcon&gt;&#10;);&#10;" toReformat="true" toShortenFQNames="true">
+  <template name="kkk" value="export const $KEY$Icon = (props) =&gt; (&#10;  &lt;SvgIcon {...props}&gt;&#10;    $CLIPBOARD$&#10;  &lt;/SvgIcon&gt;&#10;);&#10;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="camelCase(String)" defaultValue="Name" alwaysStopAt="true" />
     <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
