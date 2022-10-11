@@ -2,32 +2,23 @@
   <template name="comp" value="$NAME$: Ember.computed('$OTHER$', function() {&#10;  return this.get('$OTHER$');&#10;}),$END$" description="Insert computed property" toReformat="true" toShortenFQNames="false" deactivated="true">
     <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="OTHER" expression="" defaultValue="&quot;other&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="alias" value="$NAME$: Ember.computed.alias('$OTHER$'),$END$" description="Insert computed property alias" toReformat="true" toShortenFQNames="false" deactivated="true">
     <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="OTHER" expression="" defaultValue="&quot;other&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="compset" value="$NAME$: Ember.computed('$OTHER$', {&#10;  get(/* key */) {&#10;    return this.get('$OTHER$');&#10;  },&#10;  set(key, value) {&#10;    this.set('$OTHER$', value);&#10;    return value;&#10;  }&#10;}),$END$" description="Insert computed property with setter" toReformat="true" toShortenFQNames="false" deactivated="true">
     <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="OTHER" expression="" defaultValue="&quot;other&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="compx" value="$NAME$: Ember.computed.$FUNCTION$('$OTHER$'),$END$" description="Insert computed property method" toReformat="true" toShortenFQNames="false" deactivated="true">
     <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="FUNCTION" expression="" defaultValue="&quot;equal&quot;" alwaysStopAt="true" />
     <variable name="OTHER" expression="" defaultValue="&quot;other&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="test" value="test('$NAME$', function(assert) {&#10;  $END$&#10;});" description="Insert test case" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
-  <template name="pt" value="return pauseTest();" description="Insert pauseTest" toReformat="false" toShortenFQNames="true" deactivated="true">
-    <context />
-  </template>
-  <template name="then" value="andThen(() =&gt; {&#10;  $END$&#10;});" description="Insert andThen" toReformat="false" toShortenFQNames="true" deactivated="true">
-    <context />
-  </template>
+  <template name="pt" value="return pauseTest();" description="Insert pauseTest" toReformat="false" toShortenFQNames="true" deactivated="true" />
+  <template name="then" value="andThen(() =&gt; {&#10;  $END$&#10;});" description="Insert andThen" toReformat="false" toShortenFQNames="true" deactivated="true" />
 </templateSet>
