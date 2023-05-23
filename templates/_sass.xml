@@ -1,0 +1,8 @@
+<templateSet group="_sass">
+  <template name="brm" value="@media only screen and (max-width : $WIDTH$)" description="media query" toReformat="false" toShortenFQNames="true">
+    <variable name="WIDTH" expression="" defaultValue="1200px" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+</templateSet>
